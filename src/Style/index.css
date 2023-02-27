@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat+Alternates&family=Signika+Negative&display=swap');
+:root
+{
+  --bgColor:#131722;
+  --lightBgColor:#0275d8;
+  --bgTransparent:#24baef99 ;
+  --fontColor:#fff;
+  --borderColor:#a8a8a83d;
+  --borderHeight:1px;
+  --secondFontColor:#949cb0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  z-index: 99999999;
+  background: #0a0c13;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0275d8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.navy
+{
+  position: fixed;
+  background-color:#0a0c13 ;
+  top:0;
+  width: 100%;
+  margin-bottom: 20px;
+  z-index: 99999999999999;
+}
+#star
+{
+  cursor: pointer;
+}
+.v-80
+{
+  height: 10vh;
+}
+.dark
+{
+    background-color: #0a0c13 !important;
+}
+.myborder
+{
+  background-color: #1a252f;
+  border:inset 20px rgb(24, 99, 126,0.01);
+  border-top:inset 50px rgb(24, 99, 126,0.01);
+}
+
+
+.navytext:hover ,.navytext:hover i
+{
+  cursor: pointer;
+  color:var(--lightBgColor) !important;
+}
+.close
+{
+  font-size: 25px !important;
+  cursor: pointer;
+}
+.navdark
+{
+  color: #0a0c13;
+}
+.w-200
+{
+  margin-top: 3px;
+  width: 300%;
+}
+.vh-75
+{
+  height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.navSearch
+{
+
+  color: white !important;
+  height: 15px !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+.mt-10
+{
+  margin-top:100px;
+}
+.Hmt-10
+{
+  margin-top:100px;
+}
+.mt-7
+{
+  margin-top:80px;
+}
+a, a:hover
+{
+  color:var(--fontColor) !important;
+  text-decoration: none;
+}
+
+.close-button
+{
+  top:70px
+}
+.search-title
+{
+  top:100px
+}
+.icon-size
+{
+  font-size: 1.2rem;
+}
+body
+{
+  color:var(--fontColor) !important;
+  font-family: 'Montserrat Alternates';
+  background-color: var(--bgColor);
+}
+.h-1px
+{
+  color: #6c757d;
+  height: 0.25px;
+}
+.texticon
+{
+  color: #0a0c13 !important;
+}
+.borderpop
+{
+  border: #fff 1px solid;
+}
+
+@media only screen and (max-width: 600px) {
+  .w-200 {
+    height: 100vh;
+    width: 200%;
+  }
+  .logo {
+    background-image: url("https://picsum.photos/200");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .logimg
+  {
+   margin: auto;
+  }
+
+}
+@media only screen and (max-width: 1200px) {
+  .userdata
+  {
+    padding: 5px !important;
+  }
+  .texticon
+  {
+    width: 50%;
+  }
+  
+}
+@media only screen and (max-width : 767px){
+  .xs-searchres{width: 200%;}
+  .xs-searchposter{width: 50%;}
+
+  
+}
+@media only screen and (max-width : 475px){
+  .xs-hide{display: none;}
+
+  .xs-searchres{width: 130%;}
+  .xs-searchposter{width: 100%;}
+
+  .xsp-0{padding:  0px !important;}
+
+  .mt-10{margin-top: 60px;}
+  
+}

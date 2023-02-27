@@ -1,0 +1,98 @@
+.movie
+{
+    transition: transform 0.5s !important;
+}
+
+.movie:hover
+{
+    transform: scale(1.2);
+}
+.title
+{
+    font-size:20px !important;
+}
+.homeTitle
+{
+    font-size: 15px;
+}
+.title:hover
+{
+    color:#0275d8;
+}
+
+.titleSmall
+{
+    font-size:15px !important;
+    transition: font-weight 0.5s;
+}
+.titlesearch
+{
+    font-size: 15px !important;
+    font-weight: 900;
+}
+.titlesearch:hover
+{
+    color: #0275d8 !important;
+}
+.dark
+{
+    background-color: #0a0c13 !important;
+}
+.pagy
+{
+    background-color: #24baef !important;
+    cursor: pointer;
+    padding: 8px;
+}
+.pagy:hover
+{
+    background-color: #0a0c13 !important;
+}
+.alretAge
+{
+    border-radius: 5px;
+    display: flex;
+    height: 30px !important;
+    width: 30px;
+    padding-top: 15px;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.poster
+{
+    border: white 5px;
+}
+.rate
+{
+    
+    position: absolute;
+    width: 20%;
+    top:20px;
+    right:0;
+    padding: 2px;
+    border-radius: 5px 0 0 5px;
+    background-color:#24baef ;
+    z-index: 900;
+}
+.bgprofile
+{
+    background-color: rgb(20, 31, 69)
+}
+.bgwlist
+{
+    background-color: rgba(37, 57, 121);
+}
+.textprofile
+{
+    font-size: 15px;
+    color: #b2b2b2 ;
+}
+
+.footer
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width : 475px){
+    
+    .textprofile{font-size: 12px;}
+  }
